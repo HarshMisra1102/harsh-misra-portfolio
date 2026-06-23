@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harsh Misra | AI & ML Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a class="logo" href="#home" aria-label="Harsh Misra home">Harsh<span>Misra</span></a>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to day mode" aria-pressed="false">
+                <span class="theme-toggle-track" aria-hidden="true">
+                    <i class="fas fa-moon theme-icon theme-icon-moon"></i>
+                    <i class="fas fa-sun theme-icon theme-icon-sun"></i>
+                    <span class="theme-toggle-thumb"></span>
+                </span>
+                <span class="theme-label">Night</span>
+            </button>
+
+            <button id="menu-btn" aria-label="Open navigation" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+</header>
+
+<div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
+
+<main>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">Lucknow, India | B.Tech CSE (AI & ML) student</p>
+            <h1>Harsh Misra</h1>
+
+            <h2><span id="typing"></span></h2>
+
+            <p class="hero-copy">
+                B.Tech Computer Science student specializing in Artificial
+                Intelligence and Machine Learning, with hands-on experience in
+                OCR, NLP, data analytics, and cloud fundamentals. I build
+                practical applications that combine technical depth with
+                measurable usability.
+            </p>
+
+            <div class="hero-btns">
+                <a href="#projects" class="btn">
+                    <i class="fas fa-layer-group"></i>
+                    View Projects
+                </a>
+                <a href="assets/Harsh%20Misra.pdf" class="btn btn-outline" download>
+                    <i class="fas fa-file-arrow-down"></i>
+                    Download Resume
+                </a>
+            </div>
+
+            <div class="hero-highlights" aria-label="Key strengths">
+                <div class="highlight-chip glass-panel">
+                    <strong>85-90%</strong>
+                    <span>OCR accuracy range</span>
+                </div>
+                <div class="highlight-chip glass-panel">
+                    <strong>Bilingual</strong>
+                    <span>Hindi and English extraction</span>
+                </div>
+                <div class="highlight-chip glass-panel">
+                    <strong>API-ready</strong>
+                    <span>FastAPI docs and deployment flow</span>
+                </div>
+            </div>
+
+            <div class="socials" aria-label="Social links">
+                <a href="https://github.com/HarshMisra1102" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/harshmisra-6aa25031b" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:harsh4469stella@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-side">
+            <figure class="hero-photo-card glass-panel">
+                <div class="photo-badge">Professional profile</div>
+                <img
+                    class="hero-photo"
+                    src="../pic.jpg"
+                    alt="Portrait of Harsh Misra"
+                    loading="eager"
+                    fetchpriority="high"
+                >
+                <figcaption class="hero-photo-caption">
+                    <strong>AI and ML portfolio</strong>
+                    <span>Focused on practical systems, clear communication, and internship-ready project delivery.</span>
+                </figcaption>
+            </figure>
+
+            <aside class="hero-note glass-panel" aria-label="Portfolio note">
+                <p class="handwritten">currently focused</p>
+                <strong>Applied AI with measurable outcomes</strong>
+                <span>Open to internships and collaborative work in AI engineering, data analytics, and cloud-enabled development.</span>
+            </aside>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="section-kicker">About me</div>
+        <h2 class="section-title">Building practical systems, not just assignments.</h2>
+
+        <div class="about-layout">
+            <div class="about-copy">
+                <p>
+                    I am pursuing a B.Tech in Computer Science and Engineering
+                    with a specialization in Artificial Intelligence and Machine
+                    Learning at R.R. Institute of Modern Technology, Lucknow.
+                </p>
+                <p>
+                    My strongest work sits at the intersection of problem
+                    solving and usability, whether that means extracting text
+                    from documents, analyzing student feedback, preparing data,
+                    or building interfaces that make technical solutions easier
+                    to use in real settings.
+                </p>
+            </div>
+
+            <div class="quick-facts">
+                <div class="fact glass-panel">
+                    <span>81%</span>
+                    <p>Current academic score</p>
+                </div>
+                <div class="fact glass-panel">
+                    <span>90%</span>
+                    <p>Feedback model accuracy</p>
+                </div>
+                <div class="fact glass-panel">
+                    <span>80%</span>
+                    <p>Manual review effort reduced</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="section-kicker">Practical experience</div>
+        <h2 class="section-title">Hands-on development across AI, cloud, and structured problem solving.</h2>
+
+        <div class="experience-grid">
+            <article class="experience-card glass-panel">
+                <p class="card-label">Applied AI projects</p>
+                <h3>OCR and NLP application development</h3>
+                <p>
+                    Built academic and self-driven projects using Python-based
+                    tools to solve text extraction, preprocessing, sentiment
+                    analysis, and backend workflow problems.
+                </p>
+                <ul class="experience-points">
+                    <li>Worked with FastAPI, Scikit-learn, OpenCV, Tesseract, and MySQL.</li>
+                    <li>Focused on model accuracy, preprocessing quality, and clear project structure.</li>
+                    <li>Turned classroom concepts into demonstrable working applications.</li>
+                </ul>
+                <div class="experience-meta">
+                    <span>Python</span>
+                    <span>NLP</span>
+                    <span>Machine Learning</span>
+                </div>
+            </article>
+
+            <article class="experience-card glass-panel">
+                <p class="card-label">Cloud foundations</p>
+                <h3>Deployment and platform readiness</h3>
+                <p>
+                    Strengthened cloud and deployment fundamentals through OCI
+                    certifications, Docker packaging, and project delivery
+                    workflows prepared for public sharing.
+                </p>
+                <ul class="experience-points">
+                    <li>Built familiarity with cloud concepts, deployment flow, and API presentation.</li>
+                    <li>Prepared project artifacts such as documentation and portfolio-ready summaries.</li>
+                    <li>Connected development work with practical delivery expectations.</li>
+                </ul>
+                <div class="experience-meta">
+                    <span>Oracle Cloud</span>
+                    <span>Docker</span>
+                    <span>APIs</span>
+                </div>
+            </article>
+
+            <article class="experience-card glass-panel">
+                <p class="card-label">Analytical thinking</p>
+                <h3>Problem solving with product awareness</h3>
+                <p>
+                    I approach projects with a balance of algorithmic thinking,
+                    system structure, and user-facing clarity so that solutions
+                    remain both technically sound and easy to explain.
+                </p>
+                <ul class="experience-points">
+                    <li>Practiced DSA and logic-heavy problem decomposition.</li>
+                    <li>Used chess and algorithmic work to strengthen decision-making discipline.</li>
+                    <li>Prefer measurable improvements over purely conceptual builds.</li>
+                </ul>
+                <div class="experience-meta">
+                    <span>DSA</span>
+                    <span>Data Analytics</span>
+                    <span>Strategy</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="section-kicker">Core skills</div>
+        <h2 class="section-title">Technical strengths I use most often.</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fab fa-python"></i>Python</div>
+            <div class="skill-card"><i class="fab fa-java"></i>Java</div>
+            <div class="skill-card"><i class="fas fa-c"></i>C</div>
+            <div class="skill-card"><i class="fab fa-js"></i>JavaScript</div>
+            <div class="skill-card"><i class="fab fa-html5"></i>HTML</div>
+            <div class="skill-card"><i class="fab fa-css3-alt"></i>CSS</div>
+            <div class="skill-card"><i class="fas fa-brain"></i>Machine Learning</div>
+            <div class="skill-card"><i class="fas fa-language"></i>NLP</div>
+            <div class="skill-card"><i class="fas fa-chart-simple"></i>Data Analytics</div>
+            <div class="skill-card"><i class="fas fa-cloud"></i>Oracle Cloud</div>
+            <div class="skill-card"><i class="fab fa-git-alt"></i>Git</div>
+            <div class="skill-card"><i class="fas fa-chess-knight"></i>DSA</div>
+        </div>
+
+        <div class="focus-panel glass-panel">
+            <div class="focus-header">
+                <div class="section-kicker">Current focus</div>
+                <h3>Areas I am actively deepening.</h3>
+            </div>
+
+            <div class="focus-grid">
+                <div class="focus-card">
+                    <strong>Document intelligence</strong>
+                    <span>OCR preprocessing, extraction quality, and bilingual text workflows.</span>
+                </div>
+                <div class="focus-card">
+                    <strong>NLP pipelines</strong>
+                    <span>Text cleaning, feature engineering, sentiment analysis, and model evaluation.</span>
+                </div>
+                <div class="focus-card">
+                    <strong>Backend delivery</strong>
+                    <span>FastAPI services, API structure, and practical project packaging.</span>
+                </div>
+                <div class="focus-card">
+                    <strong>Cloud readiness</strong>
+                    <span>OCI fundamentals, deployment concepts, and portfolio-ready technical presentation.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="section-kicker">Selected work</div>
+        <h2 class="section-title">Projects backed by outcomes and implementation detail.</h2>
+
+        <div class="projects-grid">
+            <article class="project-card project-card-ocr">
+                <div class="project-visual">
+                    <i class="fas fa-file-lines"></i>
+                    <span>OCR API</span>
+                </div>
+
+                <h3>OCR Document Scanner</h3>
+
+                <p>
+                    FastAPI OCR system with OpenCV preprocessing, Hindi and English
+                    extraction, Docker packaging and deployed API docs.
+                </p>
+
+                <div class="project-feature-list" aria-label="OCR scanner features">
+                    <div class="feature-pill">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                        <span>Image cleanup before text detection</span>
+                    </div>
+                    <div class="feature-pill">
+                        <i class="fas fa-language"></i>
+                        <span>Bilingual Hindi and English OCR</span>
+                    </div>
+                    <div class="feature-pill">
+                        <i class="fas fa-box-open"></i>
+                        <span>Docker-ready backend packaging</span>
+                    </div>
+                    <div class="feature-pill">
+                        <i class="fas fa-book-open"></i>
+                        <span>Interactive API docs for testing</span>
+                    </div>
+                </div>
+
+                <ul class="project-proof">
+                    <li>Reached 85-90% text extraction accuracy on project testing.</li>
+                    <li>Added preprocessing to improve document readability before OCR.</li>
+                    <li>Supported both Hindi and English text extraction workflows.</li>
+                </ul>
+
+                <div class="project-stats" aria-label="OCR scanner summary">
+                    <div class="project-stat">
+                        <strong>2</strong>
+                        <span>supported languages</span>
+                    </div>
+                    <div class="project-stat">
+                        <strong>API</strong>
+                        <span>browser-friendly docs</span>
+                    </div>
+                    <div class="project-stat">
+                        <strong>Docker</strong>
+                        <span>deployment-ready build</span>
+                    </div>
+                </div>
+
+                <div class="project-tags">
+                    <span>FastAPI</span>
+                    <span>OpenCV</span>
+                    <span>Tesseract</span>
+                </div>
+
+                <a href="https://github.com/HarshMisra1102/OCR.git" target="_blank" rel="noopener">
+                    View repository <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+            </article>
+
+            <article class="project-card featured-project">
+                <div class="project-visual">
+                    <i class="fas fa-comments"></i>
+                    <span>NLP + ML</span>
+                </div>
+
+                <h3>Emotion Feedback Portal</h3>
+
+                <p>
+                    Student feedback analyzer using NLP preprocessing, TF-IDF and
+                    sentiment classification to reduce manual review effort.
+                </p>
+
+                <ul class="project-proof">
+                    <li>Achieved 90% model accuracy on the classification workflow.</li>
+                    <li>Reduced manual review effort by 80% through automated analysis.</li>
+                    <li>Combined preprocessing, TF-IDF vectorization, and sentiment classification.</li>
+                </ul>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Scikit-learn</span>
+                    <span>MySQL</span>
+                </div>
+
+                <a href="#contact">
+                    Request walkthrough <i class="fas fa-arrow-right"></i>
+                </a>
+            </article>
+
+            <article class="project-card">
+                <div class="project-visual">
+                    <i class="fas fa-chess-board"></i>
+                    <span>Logic</span>
+                </div>
+
+                <h3>Smart Chess AI</h3>
+
+                <p>
+                    Chess engine experiment using Minimax and Alpha-Beta pruning for
+                    move prediction, planning and game analysis.
+                </p>
+
+                <ul class="project-proof">
+                    <li>Implemented Minimax with Alpha-Beta pruning for efficient move search.</li>
+                    <li>Explored evaluation logic, decision trees, and planning depth.</li>
+                    <li>Used the project to strengthen algorithmic thinking and strategy design.</li>
+                </ul>
+
+                <div class="project-tags">
+                    <span>DSA</span>
+                    <span>Minimax</span>
+                    <span>Strategy</span>
+                </div>
+
+                <a href="#contact">
+                    Discuss implementation <i class="fas fa-arrow-right"></i>
+                </a>
+            </article>
+        </div>
+    </section>
+
+    <section id="credentials" class="section">
+        <div class="section-kicker">Credentials</div>
+        <h2 class="section-title">Education and certifications that support the work.</h2>
+
+        <div class="credentials-grid">
+            <article class="credential-card glass-panel">
+                <h3>Education</h3>
+
+                <div class="credential-block">
+                    <strong>B.Tech - Computer Science & Engineering (AI & ML)</strong>
+                    <span>R.R. Institute of Modern Technology, Lucknow</span>
+                    <p>2024-2028 | Current score: 81%</p>
+                </div>
+
+                <div class="credential-block">
+                    <strong>Intermediate</strong>
+                    <span>New Public Inter College, Lucknow</span>
+                    <p>2024 | Score: 85%</p>
+                </div>
+
+                <div class="credential-block">
+                    <strong>High School</strong>
+                    <span>Stella Maris Inter College, Lucknow</span>
+                    <p>2022 | Score: 83%</p>
+                </div>
+            </article>
+
+            <article class="credential-card glass-panel">
+                <h3>Certifications</h3>
+
+                <ul class="credential-list">
+                    <li>Oracle Cloud Infrastructure 2025 Certified Foundations Associate</li>
+                    <li>Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</li>
+                    <li>Career Essentials in Generative AI - Microsoft and LinkedIn Learning</li>
+                    <li>Career Essentials in Data Analysis - Microsoft and LinkedIn Learning</li>
+                    <li>Cybersecurity Analyst Job Simulation - Tata Group (Forage)</li>
+                    <li>TCS iON Career Edge - Young Professional</li>
+                    <li>TCS iON Career Edge - IT Primer</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="contact-copy">
+            <div class="section-kicker">Contact</div>
+            <h2 class="section-title">Open to internships, collaborations, and entry-level opportunities.</h2>
+            <p>
+                I am especially interested in AI engineering, data analytics,
+                OCR and NLP applications, and cloud-enabled product development.
+                The fastest way to reach me is by email or LinkedIn.
+            </p>
+
+            <div class="contact-list">
+                <a href="mailto:harsh4469stella@gmail.com"><strong>Email:</strong> harsh4469stella@gmail.com</a>
+                <a href="https://github.com/HarshMisra1102" target="_blank" rel="noopener"><strong>GitHub:</strong> github.com/HarshMisra1102</a>
+                <a href="https://linkedin.com/in/harshmisra-6aa25031b" target="_blank" rel="noopener"><strong>LinkedIn:</strong> linkedin.com/in/harshmisra-6aa25031b</a>
+            </div>
+        </div>
+
+        <form class="contact-form glass-panel" action="mailto:harsh4469stella@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your full name" aria-label="Your full name" required>
+            <input type="email" name="email" placeholder="Email address" aria-label="Email address" required>
+            <textarea name="message" placeholder="Tell me about the opportunity or project" aria-label="Tell me about the opportunity or project" required></textarea>
+            <button type="submit" class="btn">
+                <i class="fas fa-paper-plane"></i>
+                Send inquiry
+            </button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Harsh Misra. Designed and developed by Harsh Misra.</p>
+</footer>
+
+<button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
+ 
